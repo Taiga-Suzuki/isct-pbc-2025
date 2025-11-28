@@ -275,11 +275,11 @@ Hugging Face Inference APIでは、複数の画像生成モデルが利用可能
 
 4. 左サイドバーの「Access Tokens」をクリック
 
-5. 「New token」をクリック
-   - **Name**: `pet-app`
-   - **Role**: `Read` を選択
+5. 「Create new token」をクリック
+   - **Token type**: `Read` を選択（Fine-grained、Read、Writeの3つから選択）
+   - **Token name**: `pet-management-app` と入力
 
-6. 「Generate a token」をクリック
+6. 画面をスクロールして、一番下の「Create token」をクリック
 
 7. トークンが表示されるのでコピーして保存
 
@@ -469,7 +469,7 @@ Breedフィールドの下に識別中の表示を追加：
 
 ### Gitでの進捗管理について
 
-これから3つの機能を実装していきますが、**各機能が完成したらGitでコミット・プッシュ**することをお勧めします。
+機能を実装していく際は、**各機能が完成したらGitでコミット・プッシュ**することをお勧めします。
 
 **なぜコミット・プッシュが重要？**
 

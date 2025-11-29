@@ -176,6 +176,7 @@ const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
                 />
               </div>
 
+              {/*AI機能追加*/}
               {identifying && (
                  <p className="text-sm text-blue-600">AIが品種を識別中...</p>
               )}
